@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<!-- Add Chart.js library -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Add custom JavaScript -->
+<script src="script.js" defer></script>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <title>Dashboard UI</title>
+</head>
+<body>
+  <header>
+    <div class="logo">App Logo</div>
+    <div class="search-container">
+      <input type="search" placeholder="Search data or metrics...">
+    </div>
+    <div class="user-settings">
+      <span class="profile-icon">👤</span>
+      <span class="settings-icon">⚙️</span>
+    </div>
+  </header>
+
+  <main>
+  <section class="main-dashboard">
+	<div class="chart-container">
+		<canvas id="bar-chart"></canvas>
+	</div>
+        <!-- Add more data visualization cards here -->
+  </section>
+
+    <aside class="left-sidebar">
+      <nav>
+        <!-- Add your navigation menu items here -->
+      </nav>
+    </aside>
+
+    <section class="main-dashboard">
+      <!-- Add your data visualization cards here -->
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Your Company. All rights reserved. | <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,60 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-bottom: 1px solid #ccc;
+}
+
+.search-container {
+  flex-grow: 1;
+  margin-left: 1rem;
+}
+
+.search-container input[type="search"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.user-settings {
+  display: flex;
+  gap: 1rem;
+}
+
+main {
+  display: flex;
+  padding: 1rem;
+}
+
+.left-sidebar {
+  width: 20%;
+  border-right: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.main-dashboard {
+  flex-grow: 1;
+  padding: 1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+}
